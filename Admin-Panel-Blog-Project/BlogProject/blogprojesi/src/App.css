@@ -1,0 +1,276 @@
+ul li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* Header start */
+header.backImage {
+    background-image: url("../public/images/backImageDeneme.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.backImage-sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    line-height: 1.5rem;
+    color: white;
+    font-weight:bolder;
+    opacity: 0.4;
+}
+
+#headText {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+
+}
+
+/* Header End */
+/* navbar start */
+#mainNavbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-family: "Montserrat", -apple-system, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.063em;
+}
+
+#mainNavbar .navbar-nav .navbar-item .nav-link {
+    font-family: "Montserrat", -apple-system, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.06em;
+}
+
+#mainNavbar .navbar-nav .navbar-item .nav-link:hover.active,
+#mainNavbar .navbar-nav .navbar-item .nav-link:hover {
+    color: red;
+}
+#mainNavbar .navbar-brand:hover{
+    color: red;
+}
+
+#myNavbar {
+    background-color: black;
+}
+
+#myNavbar #navbarCloseButton {
+    background-color: white;
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+/* navbar end */
+/* About start */
+about {
+    background-color: #808d93;
+}
+
+.personelPicture {
+    width: 100%;
+}
+
+/* About end */
+/* post start */
+#postText{
+    padding-bottom: 42px;
+}
+/* post end */
+/* education start */
+.t-member {
+    margin-bottom: 3rem;
+}
+
+.t-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.t-member h4 {
+    margin-top: 1.7rem;
+    margin-bottom: 0;
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+/* education end */
+/* contact start */
+#contact {
+    background-image: url("../public/images/contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 750px;
+}
+
+#contact input {
+    padding-top: 2.2rem;
+    margin-bottom: 2.2rem;
+}
+
+#contact .form-textarea {
+    height: 88%;
+}
+
+#contact .form-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+}
+
+#contact .form-control:focus {
+    box-shadow: 1px 1px 12px red
+}
+
+/* contact end */
+
+
+/* Modal Start  */
+.myModal {
+    width: 85%;
+    height: 95%;
+    position: absolute;
+    left: 7%;
+    top: 5%
+}
+
+.modal-header {
+    text-align: center;
+}
+#modalImage{
+    width: 1000px;
+    height: auto;
+}
+
+/* Modal End */
+
+#blogPostContainer{
+    margin-top: 6rem;
+}
+#blogPostContainer img{
+    padding: 0.5rem;
+}
+/* Footer Start */
+.socialMediaIcon{
+    font-size: 30px;
+    padding: 3px;
+    color: #808d93;
+}
+.socialMediaIcon :hover{
+    color: rgb(197, 36, 36);
+}
+/* Responsive Start */
+@media screen and (max-width: 1000px) {
+
+    .personelPicture {
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: 4rem;
+    }
+
+    .aboutRow {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .aboutText {
+        width: 694px;
+    }
+    .modalFooter{
+        display: flex;
+        flex-wrap:nowrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+     .backImage-sub {
+        font-size: 4rem;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+
+    }
+    .personelPicture {
+        margin-left: 1rem;
+    }
+
+    .card-body a {
+        margin-bottom: 1rem;
+    }
+
+    .socialMediaIcon {
+        width: 30px;
+        height: 30px;
+    }
+    .footerDiv {
+        margin: 1px;
+        padding: 1px;
+    }
+}
+@media (min-width:992px) {
+    #mainNavbar {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out;
+        padding-bottom: 0.3s ease-in-out;
+        -webkit-transition: padding-top 0.3s ease-in-out;
+        padding-bottom: 0.3s ease-in-out;
+        -moz-transition: padding-top 0.3s ease-in-out;
+        padding-bottom: 0.3s ease-in-out;
+        -ms-transition: padding-top 0.3s ease-in-out;
+        padding-bottom: 0.3s ease-in-out;
+        -o-transition: padding-top 0.3s ease-in-out;
+        padding-bottom: 0.3s ease-in-out;
+
+    }
+    #mainNavbar.navbar-mobile .navbar-brand {
+        font-size: 1.20em;
+    }
+
+    #mainNavbar.navbar-mobile {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+    #mainNavbar .navbar-nav .navbar-item .nav-link{
+        font-size: 1.2em;
+        color: white;
+    }
+    #mainNavbar .navbar-brand{
+        
+        font-size: 1.5rem;
+        color: white;
+    }
+    #mainNavbar.navbar-mobile .navbar-brand{
+        font-size: 1.20em;
+        color: red;
+    }
+    #mainNavbar.navbar-mobile .navbar-nav .navbar-item .nav-link{
+        font-size: 1rem;
+    }
+    #contact {
+        background-image: url("../public/images/contact.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 620px;
+    }
+
+}
+
+/* Responsive End */

@@ -1,0 +1,75 @@
+{
+  "blogs": [
+    {
+      "title": "Örnek-1",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "status": true,
+      "active": true,
+      "date": "2023-3-24",
+      "imageUrl": "../images/backgroundimage.jpg",
+      "id": 3
+    },
+    {
+      "title": "Örnek-2",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "status": true,
+      "active": true,
+      "date": "2023-3-24",
+      "imageUrl": "../images/contact.jpg",
+      "id": 4
+    },
+    {
+      "title": "My Portfolio",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum ...",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "status": true,
+      "active": true,
+      "date": "2023-3-24",
+      "imageUrl": "../images/myPortfolio.png",
+      "id": 5
+    },
+    {
+      "title": "Admin Panel",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. L...",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "status": true,
+      "active": true,
+      "date": "2023-3-24",
+      "imageUrl": "../images/adminpanel.png",
+      "id": 6
+    },
+    {
+      "title": "Deneme",
+      "description": "Deneme",
+      "content": "Deneme",
+      "status": false,
+      "active": true,
+      "date": "2023-3-26",
+      "imageUrl": "Deneme",
+      "id": 8
+    },
+    {
+      "title": "Deneme",
+      "description": "Deneme",
+      "content": "Deneme",
+      "status": false,
+      "active": true,
+      "date": "2023-3-26",
+      "imageUrl": "Deneme",
+      "id": 9
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "content": "test",
+      "status": false,
+      "active": true,
+      "date": "2023-3-26",
+      "imageUrl": "test",
+      "id": 10
+    }
+  ],
+  "comments": []
+}
